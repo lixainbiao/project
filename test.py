@@ -4,4 +4,3 @@ value = 'aaa'
 b = value
 print(id(value))
 print(id(b))
-print(b)
