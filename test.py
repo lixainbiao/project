@@ -1,6 +1,5 @@
-#!/usr/bin/enc python
-#coding:utf-8
-value = 'aaa'
-b = value
-print(id(value))
-print(id(b))
+import os
+
+dir = 'D:/'
+for i in os.walk(dir):
+    print(i[0])
